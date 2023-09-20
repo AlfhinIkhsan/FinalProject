@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="mobile-nav">
+            <button class="hamburger-button">&#9776;</button>
+            <ul class="mobile-menu"
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#awards">Awards</a></li>
+            </ul>
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="dark-mode-toggle" class="checkbox">
+                <label for="dark-mode-toggle" class="label"></label>
+            </div>
+        </nav>
+    </header>
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <img src="images/foto.JPG" alt="Foto Profil">
+        <p>introduce my name is Muhamad Ikhsan Alfhidiansyah. you can call me Alfhin or ikhsan.</p>
+        <p>I am a student at Gunadarma University, my major at Gunadarma University is informatics engineering.</p>
+    </section>
+    <section id="experiences" class="section">
+        <h1>Experiences</h1>
+        <p>I took the Gunadarma University Lepkom course on database management systems and Network Basics.</p>
+    </section>
+    <section id="education" class="section">
+        <h1>Education</h1>
+        <ul>
+            <li>2019 - 2022: MAN 1 Bogor</li>
+            <li>2022 - Now: Universitas Gunadarma</li>
+        </ul>
+    </section>
+    <section id="skills" class="section">
+        <h1>Skills</h1>
+        <div class="skill-icons">
+            <img src="images/html.png" alt="Skill 1">
+            <img src="images/css.png" alt="Skill 2">
+            <img src="images/js.png" alt="Skill 3">
+        </div>
+    </section>
+    
+    <section id="interests" class="section">
+        <h1>Interests</h1>
+        <p>My interest is to become a front end developer and also be able to master UI/UX.</p>
+    </section>
+    <section id="awards" class="section">
+        <h1>Awards</h1>
+        <p>Here are some of the awards I have received:</p>
+        <ul>
+            <li>Belajar Dasar Pemrograman JavaScript</li>
+            <li>Belajar Dasar Structured Query Language (SQL)</li>
+           
+        </ul>
+        <p>You can also see a detailed list of my awards <a href="https://www.dicoding.com/users/alfhin_ikhsan/academies" download>here</a>.</p>
+    </section>
+    
+    <script src="script.js"></script>
+
+    <footer
+        class="footer border-top bg-body-tertiary position-sticky sticky-bottom"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p
+                class="m-2 text-center"
+                style="font-size: 15px; font-weight: 500"
+              >
+                Copyleft ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                -  By Alfhin Ikhsan
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
