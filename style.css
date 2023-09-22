@@ -78,13 +78,13 @@ body {
 }
 
 .mobile-menu.active {
-    max-height: 100px; /* Atur tinggi sesuai kebutuhan Anda */
+    max-height: 100px; 
 }
 
 .mobile-menu li {
-    text-align: right; /* Menggeser teks ke samping kanan */
+    text-align: right; 
     opacity: 0;
-    transform: translateX(20px); /* Geser teks 20px ke kanan */
+    transform: translateX(20px); 
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
