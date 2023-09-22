@@ -15,7 +15,7 @@ body {
     min-height: 100vh; 
 }
 
-/* Dark Mode Styles */
+
 .dark-mode {
     background-color: #121212; 
     color: #ffffff; 
@@ -90,7 +90,7 @@ body {
 
 .mobile-menu.active li {
     opacity: 1;
-    transform: translateX(0); /* Geser teks ke posisi asal */
+    transform: translateX(0); 
 }
 
 
