@@ -69,19 +69,30 @@ body {
 }
 
 .mobile-menu {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    display: none; 
+    margin: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.mobile-menu.active {
+    max-height: 100px; /* Atur tinggi sesuai kebutuhan Anda */
 }
 
 .mobile-menu li {
-    margin: 10px 0;
+    text-align: right; /* Menggeser teks ke samping kanan */
+    opacity: 0;
+    transform: translateX(20px); /* Geser teks 20px ke kanan */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-
-.mobile-menu.active {
-    display: block;
+.mobile-menu.active li {
+    opacity: 1;
+    transform: translateX(0); /* Geser teks ke posisi asal */
 }
+
 
 .mobile-nav {
     position: fixed;
